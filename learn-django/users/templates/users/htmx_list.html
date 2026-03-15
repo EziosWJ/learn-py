@@ -1,0 +1,11 @@
+<input
+    type="text"
+    name="q"
+    hx-get="/users/search"
+    hx-trigger="keyup changed delay:500ms"
+    hx-target="#result"
+/>
+
+<div id="result"></div>
+
+<script src="https://unpkg.com/htmx.org"></script>

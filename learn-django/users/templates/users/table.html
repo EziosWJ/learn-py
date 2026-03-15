@@ -1,0 +1,13 @@
+<table>
+<tr>
+<th>ID</th>
+<th>用户名</th>
+</tr>
+
+{% for u in users %}
+<tr>
+<td>{{u.id}}</td>
+<td>{{u.username}}</td>
+</tr>
+{% endfor %}
+</table>
